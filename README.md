@@ -30,7 +30,7 @@ Modifie le composant `<HeroesItem />` afin d'afficher quelques informations d'un
 
 ## 4. Favoris
 
-Dans ton composant `<HeroesItem />`, ajoute un bouton permettant d'ajouter ou retirer un super héros à tes favoris.
+Dans ton composant `<HeroesItem />`, ajoute un bouton permettant d'ajouter ou retirer un super héros à tes favoris, qui impactera un état `favourite`.
 
 ## 5. Alignement
 
