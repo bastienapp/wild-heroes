@@ -32,7 +32,7 @@ Modifie le composant `<HeroesItem />` afin d'afficher quelques informations d'un
 
 Dans ton composant `<HeroesItem />`, ajoute un bouton permettant d'ajouter ou retirer un super héros à tes favoris.
 
-## 5. Good vs Evil
+## 5. Alignement
 
 Dans `<HeroesList />`, ajoute trois boutons avant ta liste :
 
@@ -60,3 +60,9 @@ Ajout dans `<HeroesDetail />` un bouton "Back to the list" qui affiche la liste 
 Dans `<HeroesList />`, ajoute un boutons "Mes favoris" avant la liste.
 
 Modifie la gestion des favoris afin de permettre de filtrer tes héros afin de n'afficher que tes favoris.
+
+## 8. Filtrage
+
+Dans `<HeroesList />`, ajoute un label "Rechercher" et un champs texte, avant la liste.
+
+À la modification du texte du champs, filtrer les héros pour n'afficher que ceux dont le nom correspont à la recherche.
