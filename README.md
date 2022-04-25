@@ -55,14 +55,14 @@ En fonction de l'identifiant, le composant `<HeroesDetail />` doit appeler l'API
 
 Ajout dans `<HeroesDetail />` un bouton "Back to the list" qui affiche la liste des héros.
 
-## 7. Collection
-
-Dans `<HeroesList />`, ajoute un boutons "Mes favoris" avant la liste.
-
-Modifie la gestion des favoris afin de permettre de filtrer tes héros afin de n'afficher que tes favoris.
-
-## 8. Filtrage
+## 7. Filtrage
 
 Dans `<HeroesList />`, ajoute un label "Rechercher" et un champs texte, avant la liste.
 
 À la modification du texte du champs, filtrer les héros pour n'afficher que ceux dont le nom correspont à la recherche.
+
+## 8. Collection
+
+Dans `<HeroesList />`, ajoute un boutons "Mes favoris" avant la liste.
+
+Modifie la gestion des favoris afin de permettre de filtrer tes héros afin de n'afficher que tes favoris.
