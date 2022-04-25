@@ -2,7 +2,7 @@
 
 Nous allons créer une application affichant une liste de super héros.
 
-Pour cela, nous aurons besoin besoin de cette API : [url](https://akabab.github.io/superhero-api/).
+Pour cela, nous aurons besoin besoin de cette API : [https://akabab.github.io/superhero-api/](https://akabab.github.io/superhero-api/).
 
 ## 1. API
 
