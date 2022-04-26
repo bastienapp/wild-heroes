@@ -16,7 +16,7 @@ Fait en sorte de n'appeler l'API qu'au montage du composant.
 
 ## 2. Liste
 
-Dans ton componsant `<App />`, appelle le composant `<HeroesList />` en lui passant en props la liste des héros récupérés de l'API.
+Dans ton componsant `<App />`,x appelle le composant `<HeroesList />` en lui passant en props la liste des héros récupérés de l'API.
 
 Fait un `console.log` des props pour vérifier que tout a bien été reçu.
 
