@@ -4,6 +4,10 @@ Nous allons créer une application affichant une liste de super héros.
 
 Pour cela, nous aurons besoin besoin de cette API : [https://akabab.github.io/superhero-api/](https://akabab.github.io/superhero-api/).
 
+Installe le projet avec la commande `npm ci` (à préférer à `npm install`, car les versions des modules seront les mêmes que le package-lock.json).
+
+Les modules `axios` et `react-router-dom` sont déjà installé. Tu n'as pas à installer de modules pour cet exercice !
+
 ## 1. API
 
 Dans le composant `<App />`, appelle l'API afin de récupérer la liste des héros et fait un `console.log` du résultat.
