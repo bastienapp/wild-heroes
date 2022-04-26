@@ -1,7 +1,9 @@
 import React from "react";
-
-function HeroesList() {
-  return <div>TODO your code here!</div>;
+// pour chaque hero, afficher son nom
+function HeroesList(props) {
+  const {heroes} = props;
+  return <div>
+     TODO your code here!</div>;
 }
 
 export default HeroesList;

@@ -8,6 +8,10 @@ Installe le projet avec la commande `npm ci` (à préférer à `npm install`, ca
 
 Les modules `axios` et `react-router-dom` sont déjà installé. Tu n'as pas à installer de modules pour cet exercice !
 
+Questions :
+- qu'est-ce qui pousse un composant à charger
+> le changement du state
+
 ## 1. API
 
 Dans le composant `<App />`, appelle l'API afin de récupérer la liste des héros et fait un `console.log` du résultat.
