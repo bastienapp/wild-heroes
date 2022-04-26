@@ -2,7 +2,7 @@
 
 Nous allons créer une application affichant une liste de super héros.
 
-Pour cela, nous aurons besoin besoin de cette API : [https://akabab.github.io/superhero-api/](https://akabab.github.io/superhero-api/).
+Pour cela, nous aurons besoin besoin de cette API : [Documentation de l'API](https://akabab.github.io/superhero-api/).
 
 Installe le projet avec la commande `npm ci` (à préférer à `npm install`, car les versions des modules seront les mêmes que le package-lock.json).
 
