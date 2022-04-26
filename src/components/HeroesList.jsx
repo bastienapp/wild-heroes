@@ -25,7 +25,7 @@ function HeroesList({ heroes }) {
 const[alignment, setAlignment] = useState('all')
 
   return (
-    <div style={{display: "grid" , gridTemplateColumns: "1fr 1fr 1fr", gap: "2rem" ,alignItems:'center' }}>
+    <div style={{display: "grid" , gridTemplateColumns: "1fr 1fr 1fr", gap: "2rem"  }}>
       <div>
     <button onClick={() => setAlignment('all')}>All</button>
     <button onClick={() => setAlignment('good')}>Good</button>
