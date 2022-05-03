@@ -1,10 +1,16 @@
 .App {
   text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
 }
 button{
   background-color: rgb(225, 22, 225);
   color: aliceblue;
   border-radius: 2rem;
-  box-shadow: rgb(255, 58, 255) 0px 0px 10px 20px;
+  font-size: larger;
+  margin: 1rem;
+  padding: 0.5rem 1rem;
+  /* box-shadow: rgb(255, 58, 255) 0px 0px 10px 20px; */
 
 }

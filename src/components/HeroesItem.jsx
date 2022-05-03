@@ -11,7 +11,7 @@ setFavourite(!favourite)
   return <div>
     <h2>{name}</h2>
     <h2>{alignment}</h2>
-    <img src={image} alt="héros"/>
+    <img src={image} alt="héros"/><br/>
     <button onClick={handleClick}>{favourite ? "Favourite" : "Add to favourite"}</button>
 
   </div>;
