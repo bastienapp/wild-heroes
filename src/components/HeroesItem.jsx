@@ -1,5 +1,6 @@
 import React from "react";
 import { useState } from "react";
+import { Link } from "react-router-dom";
 
 function HeroesItem(props) {
   const {heroInfos} = props;
@@ -12,9 +13,12 @@ function HeroesItem(props) {
   return (
   <div className="hero-card">    
       <h1>{heroInfos.name}</h1> 
-      <img src= {heroInfos.images.xs} alt = "hero pic"/>
+      <Link to={`/heroes/${heroInfos.id}`}>
+      <img src= {heroInfos.images.xs}  alt = "hero pic" style={{width: "8rem"}}/>
+      </Link>
       <h2>{heroInfos.biography.alignment}</h2>
       <button type="button" onClick={handleClicksFavourite}>{isFavourite ? "Je suis un favori" : "Je suis mal-aimé"}</button>
+      
   </div>
   );
   
